@@ -13,7 +13,7 @@ export default {
       keyframes: {
         
         'move-diagonal': {
-          '0%': { transform: 'translate(0, 0)' },
+          '0%': { transform: 'translate(0, -90px)' },
           '100%': { transform: 'translate(-1500px, 1200px)' }, // Adjust as needed
         },
         'rotate': {
