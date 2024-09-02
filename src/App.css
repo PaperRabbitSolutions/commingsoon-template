@@ -13,7 +13,7 @@
 }
 
 .rotate-animated {
-  animation: rotate 12s linear infinite;
+  animation: rotate 8s linear infinite;
 }
 
 
@@ -35,7 +35,7 @@
 }
 
 .blinking-dot {
-  animation: smoothBlink 12s ease-in-out infinite;
- animation-delay: 3s;
+  animation: smoothBlink 8s ease-in-out infinite;
+ 
  
 }

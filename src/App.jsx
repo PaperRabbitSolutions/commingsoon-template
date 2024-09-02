@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import Derlin from './Components/Derlin'
+import star from './assets/star.png' 
 
 function App() {
   
@@ -25,8 +26,8 @@ setHovered(true);
       <div className='absolute top-[-35%] left-[40%] z-50 animate-move-diagonal  r '>
         <img src="https://i.pinimg.com/originals/1a/8f/45/1a8f45557f4df6b9e0adf351d26a20ba.png" className='rotate-[-22deg] z-40   ' alt="" />
       </div>
-      <div className='absolute top-0 left-[15%] z-50'>
-        <img src="https://i.pinimg.com/originals/1a/8f/45/1a8f45557f4df6b9e0adf351d26a20ba.png" onMouseOver={handleHover} className={`rotate-[-22deg] z-40  ${hovered?'animate-move-diagonal':null} ` }alt="" />
+      <div className='absolute top-10 left-[25%] hidden md:block  z-50'>
+        <img src={star}width={30} onMouseOver={handleHover} className={`rotate-[-22deg] z-40  ${hovered?'animate-move-diagonal':null} ` }alt="" />
       </div>
      
       <Derlin />
