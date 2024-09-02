@@ -18,7 +18,7 @@ function Derlin() {
             <img src={star} alt="" className=" absolute  left-[84.6%] lg:left-[68.85%] blinking-dot  shadow-white rounded-full" />
 
                 <div className="flex flex-col justify-center items-center absolute top-[52%] md:top-[50%] lg:top-[40%]"> 
-                <h2 className="text-2xl  md:text-4xl lg:text-6xl font-semibold font-[cinzel] ">Coming Soon</h2>
+                <h2 className="text-2xl  md:text-4xl lg:text-6xl font-semibold font-[cinzel] mt-4">Coming Soon</h2>
                 <p className="text-sm md:text-base lg:text-xl font-[satisfy]">Catch Your stars</p>
                 <p></p>
                 <form action="" className="  w-[75%] md:flex-row flex-col md:w-2/3 lg:w-1/4 bg-transparent md:px-2 px-1 mt-6 lg:mt-12 py-2 backdrop-blur flex rounded-lg gap-2 justify-center items-center">
