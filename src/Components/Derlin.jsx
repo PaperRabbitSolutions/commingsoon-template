@@ -1,5 +1,5 @@
 import React from "react";
-import layer from '../assets/Layer 2.png'
+import layer from '../assets/Layer 1.png'
 import derlin from '../assets/Derlin.png'
 import { FaFacebook, FaInstagramSquare, FaLinkedin, FaPinterestSquare, FaQuora } from "react-icons/fa";
 import { SiGooglemaps } from "react-icons/si";
@@ -14,7 +14,7 @@ function Derlin() {
             <div className="w-[25rem] h-[25rem] md:w-[40rem] md:h-[40rem] lg:w-[50rem] lg:h-[50rem] rotate-animated  bg-opacity-40 bg-black shadow-xl relative  flex flex-col justify-baseline items-center rotate-[270deg] shadow-white rounded-full " >  </div>
             <img src={star} alt="" className=" absolute left-[86%] lg:left-[64.15%] blinking-dot  shadow-white rounded-full" />
 
-            <div className="w-screen h-[80%] md:h-[50%] flex justify-center md:justify-baseline items-center top-[25%] md:top-[42%] lg:top-[50%]  text-white absolute z-50 bg-contain flex-col bg-center bg-no-repeat bg-transparent  rounded-2xl" style={{ backgroundImage: `url("${layer}")` }} >
+            <div className="w-screen h-[80%] md:h-[50%] flex justify-center md:justify-baseline items-center top-[25%] md:top-[42%] lg:top-[50%]  text-white absolute z-50 bg-cover flex-col bg-center bg-no-repeat bg-transparent  rounded-2xl" style={{ backgroundImage: `url("${layer}")` }} >
                 <img src={derlin} alt="" className=" z-50 md:w-[10rem] w-[8rem] lg:w-[14rem] absolute top-[20%] md:top-[-10%] lg:top-[-35%]" />
 
                 <h2 className=" md:text-4xl lg:text-6xl font-semibold font-[cinzel] mt-40 md:mt-2 lg:mt-32">Coming Soon</h2>
