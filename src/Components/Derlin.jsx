@@ -13,7 +13,7 @@ function Derlin() {
 
             <div className="w-[22rem] h-[22rem] md:w-[40rem] md:h-[40rem] lg:w-[50rem] lg:h-[50rem]   bg-transparent  relative  flex  justify-baseline items-center rotate-[180deg] shadow-white rounded-full ">
                 <div className="w-[22rem] h-[22rem] md:w-[40rem] md:h-[40rem] lg:w-[50rem] lg:h-[50rem] rotate-animated  bg-opacity-40  bg-black shadow-xl   flex flex-col justify-baseline items-center rotate-[45deg] shadow-white rounded-full " >  </div>
-                <img src={star} alt="" className="  absolute  lg:left-[-7%] md:left-[-9%] left-[-16%] bottom-[32%] md:bottom-[40%] lg:bottom-[42%] z-[999]  blinking-dot  shadow-white rounded-full" />
+                <img src={star} alt="" className=" lg:w-[70px] w-[60px]  absolute  lg:left-[-5%] md:left-[-5%] left-[-9%] bottom-[32%] md:bottom-[40%] lg:bottom-[42%] z-[999]  blinking-dot  shadow-white rounded-full" />
 
             </div>
 
