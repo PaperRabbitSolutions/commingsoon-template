@@ -12,9 +12,13 @@ export default {
       },
       keyframes: {
         
-        'move-diagonal': {
+        'move-diagonal-lg': {
           '0%': { transform: 'translate(0, -90px)' },
           '100%': { transform: 'translate(-1500px, 1200px)' }, // Adjust as needed
+        },
+        'move-diagonal-sm': {
+          '0%': { transform: 'translate(250px, -10px)' },
+          '100%': { transform: 'translate(-900px, 1500px)' }, // Adjust as needed
         },
         'rotate': {
           '0%': { transform: 'rotate(0deg)' },
@@ -22,7 +26,8 @@ export default {
         },
       },
       animation: {
-        'move-diagonal': 'move-diagonal 3s ease-in-out  ', // Duration and timing function
+        'move-diagonal-lg': 'move-diagonal-lg 3s ease-in-out  ', // Duration and timing function
+        'move-diagonal-sm': 'move-diagonal-sm 4s ease-in-out  ', // Duration and timing function
         // 'rotateme': 'rotate 4s linear infinite',
       },
     },

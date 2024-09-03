@@ -22,19 +22,19 @@ function App() {
 
   return (
     <div className='w-screen h-screen relative bg-cover bg-center flex justify-center items-center overflow-x-hidden' style={{ backgroundImage: `url(${bgImage})` }}>
-      <div className='absolute top-[-35%] left-[70%] z-50 animate-move-diagonal r '>
+      <div className='absolute top-[-35%] left-[70%] z-50 animate-move-diagonal-sm lg:animate-move-diagonal-lg  '>
         <img src="https://i.pinimg.com/originals/1a/8f/45/1a8f45557f4df6b9e0adf351d26a20ba.png" className='rotate-[-22deg] z-40 ' alt="" />
       </div>
-      <div className='absolute top-[-35%] left-[90%] z-50 animate-move-diagonal r '>
+      <div className='absolute top-[-35%] left-[90%] z-50 animate-move-diagonal-sm lg:animate-move-diagonal-lg  '>
         <img src="https://i.pinimg.com/originals/1a/8f/45/1a8f45557f4df6b9e0adf351d26a20ba.png" className='rotate-[-22deg] z-40 ' alt="" />
       </div>
-      <div className='absolute top-[-40%] left-[40%] z-50 animate-move-diagonal r '>
+      <div className='absolute top-[-40%] left-[40%] z-50 animate-move-diagonal-sm lg:animate-move-diagonal-lg   '>
         <img src="https://i.pinimg.com/originals/1a/8f/45/1a8f45557f4df6b9e0adf351d26a20ba.png" className='rotate-[-22deg] z-40 ' alt="" />
       </div>
-      <div className='absolute top-[-45%] left-[80%] z-50 animate-move-diagonal r '>
+      <div className='absolute top-[-45%] left-[80%] z-50 animate-move-diagonal-sm lg:animate-move-diagonal-lg  '>
         <img src="https://i.pinimg.com/originals/1a/8f/45/1a8f45557f4df6b9e0adf351d26a20ba.png" className='rotate-[-22deg] z-40 ' alt="" />
       </div>
-      <div className='absolute top-[-48%] left-[98%] z-50 animate-move-diagonal r '>
+      <div className='absolute top-[-48%] left-[98%] z-50 animate-move-diagonal-sm lg:animate-move-diagonal-lg  '>
         <img src="https://i.pinimg.com/originals/1a/8f/45/1a8f45557f4df6b9e0adf351d26a20ba.png" className='rotate-[-22deg] z-40 ' alt="" />
       </div>
       <div className='absolute top-10 left-[25%] hidden md:block z-50'>
