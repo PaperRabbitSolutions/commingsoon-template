@@ -36,6 +36,7 @@
 
 .blinking-dot {
   animation: smoothBlink 10s ease-in-out infinite;
+  
   animation-delay: 7.5s;
  
 }
